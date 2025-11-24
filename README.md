@@ -30,12 +30,9 @@ The solution is built on a **Walk-Forward Analysis (WFA)** architecture, which p
 
 ## 📁 Repository Structure
 
-| File/Folder | Purpose |
+| File | Purpose |
 | :--- | :--- |
-| `src/` | **Contains all executable Python scripts (Phase 1-4 logic).** |
-| `models/` | Stores the final optimized model (`xgboost_final_optimized_model.joblib`). |
-| `data/` | Contains the cleaned input data (`nifty_features_ready.csv`). |
-| `PowerBI_Proof.png` | **Screenshot of the final, color-coded dashboard table.** |
-| `README.md` | This document. |
-
----
+| `README.md` | This document. Serves as the executive summary and technical deep dive. |
+| `NIFTY-50.ipynb` | **Primary Source Code.** Contains all Python logic: Data Acquisition, Feature Engineering, Walk-Forward Analysis, and Optimization. |
+| `Final_Dashboard.pbix` | **Business Intelligence Deliverable.** The Power BI file used to generate the live visualization. |
+| `xgboost_final_optimized_model.joblib` | **Trained AI Model.** The final, optimized XGBoost model ready for live deployment. |
